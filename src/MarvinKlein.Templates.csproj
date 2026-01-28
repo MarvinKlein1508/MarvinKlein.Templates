@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<IncludeBuildOutput>False</IncludeBuildOutput>
+		<IncludeSource>False</IncludeSource>
+		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+		<OutputPath>$(ArtifactsTmpDir)</OutputPath>
+		<EnableDefaultItems>False</EnableDefaultItems>
+		<IsPackable>true</IsPackable>
+		<IsShipping>true</IsShipping>
+		<IsShippingPackage>true</IsShippingPackage>
+		<NoWarn>$(NoWarn);2008;NU5105</NoWarn>
+		<NoPackageAnalysis>true</NoPackageAnalysis>
+		<PackageId>MarvinKlein.Templates</PackageId>
+		<Authors>Marvin Klein</Authors>
+		<Description>Common Project File for Dotnet Template Samples</Description>
+		<language>en-US</language>
+		<PackageProjectUrl></PackageProjectUrl>
+		<PackageType>Template</PackageType>
+		<SuppressDependenciesWhenPacking>True</SuppressDependenciesWhenPacking>
+		<VersionPrefix>1.0.1</VersionPrefix>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="content\**" PackagePath="content" />
+	</ItemGroup>
+
+</Project>

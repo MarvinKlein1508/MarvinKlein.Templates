@@ -1,0 +1,34 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Contoso",
+    "classifications": [ "Console" ],
+    "name": "Marvin Klein Sample 01",
+    "identity": "MarvinKlein.Templates.CSharp",
+    "groupIdentity": "MarvinKlein.Templates",
+    "shortName": "mk_sample01", // You can create the project using this short name instead of the one above.
+    "tags": {
+        "language": "C#", // Specify that this template is in C#.
+        "type": "project"
+    },
+    "sourceName": "MyProject.Con", // Will replace the string 'MyProject.StarterWeb' with the value provided via -n.
+    "preferNameDirectory": true,
+    "symbols": {
+        "Framework": {
+            "type": "parameter",
+            "description": "The target framework for the project.",
+            "datatype": "choice",
+            "choices": [
+                {
+                    "choice": "net9.0",
+                    "displayName": ".NET 9.0 (Standard Term Support)"
+                },
+                {
+                    "choice": "net10.0",
+                    "displayName": ".NET 10.0 (Long Term Support)"
+                }
+            ],
+            "replaces": "net10.0",
+            "defaultValue": "net10.0"
+        }
+    }
+}
