@@ -13,10 +13,14 @@
 		<NoWarn>$(NoWarn);2008;NU5105</NoWarn>
 		<NoPackageAnalysis>true</NoPackageAnalysis>
 		<PackageId>MarvinKlein.Templates</PackageId>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/MarvinKlein1508/MarvinKlein.Templates</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageTags>Templates, Fluent UI, Blazor, Web Components</PackageTags>
+		<Title>Fluent UI V5 Blazor Templates By Marvin Klein</Title>
 		<Authors>Marvin Klein</Authors>
-		<Description>Common Project File for Dotnet Template Samples</Description>
+		<Description>Project templates for FluentUI V5 by Marvin Klein</Description>
 		<language>en-US</language>
-		<PackageProjectUrl></PackageProjectUrl>
 		<PackageType>Template</PackageType>
 		<SuppressDependenciesWhenPacking>True</SuppressDependenciesWhenPacking>
 		<VersionPrefix>1.1.0</VersionPrefix>
