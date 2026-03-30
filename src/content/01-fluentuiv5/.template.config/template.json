@@ -30,6 +30,13 @@
       ],
       "replaces": "net10.0",
       "defaultValue": "net10.0"
+    },
+    "LocalReference": {
+      "type": "parameter",
+      "datatype": "bool",
+      "defaultValue": "true",
+      "displayName": "Use local project reference",
+      "description": "When enabled, the FluentUI v5 library will be referenced from a local project instead of NuGet. This makes it easier for the FluentUI team to debug the application."
     }
   }
 }
