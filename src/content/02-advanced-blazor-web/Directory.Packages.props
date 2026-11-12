@@ -3,18 +3,16 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="Dapper" Version="2.1.66" />
-    <PackageVersion Include="dbup-sqlserver" Version="6.0.16" />
-    <PackageVersion Include="Microsoft.AspNetCore.Components.Authorization" Version="10.0.2" />
-    <PackageVersion Include="Microsoft.Data.SqlClient" Version="6.1.4" />
-    <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.2" />
-    <PackageVersion Include="Microsoft.Extensions.Identity.Core" Version="10.0.2" />
-    <PackageVersion Include="Microsoft.Extensions.Options" Version="10.0.2" />
-    <PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="10.0.2" />
-    <PackageVersion Include="Microsoft.FluentUI.AspNetCore.Components" Version="5.0.0-rc.1-26049.2" />
-    <PackageVersion Include="Microsoft.FluentUI.AspNetCore.Components.Icons" Version="4.14.0" />
+    <PackageVersion Include="Dapper" Version="2.1.89" />
+    <PackageVersion Include="dbup-sqlserver" Version="7.2.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.Authorization" Version="11.0.0" />
+    <PackageVersion Include="Microsoft.Data.SqlClient" Version="7.1.1" />
+    <PackageVersion Include="Microsoft.Extensions.Identity.Core" Version="11.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="11.0.0" />
+    <PackageVersion Include="Microsoft.FluentUI.AspNetCore.Components" Version="5.0.2-preview.26300.1" />
+    <PackageVersion Include="Microsoft.FluentUI.AspNetCore.Components.Icons" Version="5.0.1" />
     <PackageVersion Include="Otp.NET" Version="1.4.1" />
-    <PackageVersion Include="QRCoder" Version="1.7.0" />
-    <PackageVersion Include="System.DirectoryServices.Protocols" Version="10.0.2" />
+    <PackageVersion Include="QRCoder" Version="1.8.1" />
+    <PackageVersion Include="System.DirectoryServices.Protocols" Version="11.0.0" />
   </ItemGroup>
 </Project>
