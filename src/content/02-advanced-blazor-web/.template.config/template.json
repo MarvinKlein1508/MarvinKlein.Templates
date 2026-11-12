@@ -5,7 +5,7 @@
   "name": "Advanced Blazor Web App",
   "defaultName": "BlazorApp",
   "description": "A project template for creating a Blazor web app with global server interactivity and two factor authentification without Identity.",
-  "identity": "MarvinKlein.Templates.Blazor.CSharp.10.0",
+  "identity": "MarvinKlein.Templates.Blazor.CSharp.11.0",
   "groupIdentity": "MarvinKlein.Templates.Blazor.Advanced",
   "guids": [
     "21A7695E-982D-4D15-9FE3-217817CE2E01"
@@ -24,12 +24,12 @@
       "datatype": "choice",
       "choices": [
         {
-          "choice": "net10.0",
-          "displayName": ".NET 10.0 (Long Term Support)"
+          "choice": "net11.0",
+          "displayName": ".NET 11.0 (Standard Term Support)"
         }
       ],
-      "replaces": "net10.0",
-      "defaultValue": "net10.0"
+      "replaces": "net11.0",
+      "defaultValue": "net11.0"
     }
   },
   "sources": [
