@@ -6,8 +6,6 @@ namespace MyProject.Components.Layout;
 
 public partial class MainLayout
 {
-    private FluentLayoutHamburger _hamburger = default!;
-
     [Inject]
     public required IJSRuntime JSRuntime { get; set; }
 

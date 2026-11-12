@@ -15,7 +15,7 @@ dotnet new mk_fluentui5 -o {your project name}
 In Visual Studio you can create a new project by selecting the FluentUI V5 Blazor Web App (Marvin Klein) template in the 'File->New->Project'-dialog.
 
 ## Uninstalling the templates
-If you want to uninstall the templates, both from the CLI and Visual Studio 2022,  run the following command:
+If you want to uninstall the templates, both from the CLI and Visual Studio 2026, run the following command:
 ```
 dotnet new uninstall MarvinKlein.Templates
 ```
